@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <link href="home头.css" rel="stylesheet">
+    <link href="学生信息.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="home主页.html"><img src="logo.png" alt=""></a>
+        </div>
+        <span class="menu"></span>
+        <div class="navigation">
+            <ul class="navig cl-effect-3" >
+                <li><a href="home学号.html">Home</a></li>
+                <li><a href="网页1.html">姓名</a></li>
+                <li><a href="网页2.html">登陆时间</a></li>
+                <li><a href="网3.html">登出时间</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="search" required=""  /><li></li>
+                <input type="submit" value="" />
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="学号">
+    <div class="container">
+        <h3>Gallery</h3>
+        <div class="学号-top">
+            <ul id="filters" class="clearfix">
+                <li><span class="filter active" data-filter="app card icon logo web">学号列表</span></li>
+                <li><span class="filter" data-filter="app">学生列表</span></li>
+                <li><span class="filter" data-filter="card">进入学校时间</span></li>
+                <li><span class="filter" data-filter="icon">离开学校时间</span></li>
+            </ul>
+            <div id="portfoliolist">
+                <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="home主页.html" class="b-link-stripe b-animate-go  thickbox">
+                            <img src="pic1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "> </h2>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="home主页.html" class="b-link-stripe b-animate-go  thickbox">
+                            <img src="pic2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "> </h2>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="home主页.html" class="b-link-stripe b-animate-go  thickbox">
+                            <img src="pic3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "> </h2>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="portfolio logos mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="home主页.html" class="b-link-stripe b-animate-go  thickbox">
+                            <img src="pic4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "> </h2>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                    <div class="portfolio-wrapper">
+                        <a href="home主页.html" class="b-link-stripe b-animate-go  thickbox">
+                            <img src="pic5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "> </h2>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>
